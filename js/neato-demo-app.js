@@ -245,7 +245,7 @@ var NeatoDemoApp = {
   },
 
   guiRobotTemplate: function(robot) {
-    return "<div class='robot grid-40 prefix-5 suffix-5' data-serial='"+robot.serial+"' data-secret_key='"+robot.secretKey+"'>" +
+    return "<div class='robot grid-40 prefix-5 suffix-5' data-serial='"+robot.serial+"' data-secret_key='"+robot.secret_key+"'>" +
       "<div class='model'><img src='img/"+this.getRobotImage(robot.model)+"'></div>" +
         "<p class='name'>"+robot.name+"</p>" +
         "<p class='robot_state'>NOT AVAILABLE</p>" +
